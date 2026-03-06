@@ -34,4 +34,4 @@ def InputHandling(filepath):
         step+=1
 
     print(nextRequest)
-    return k, m, rows
+    return k, m, rows, nextRequest

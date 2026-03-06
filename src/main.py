@@ -6,10 +6,10 @@ from Functions.fileGen import fileGen
 
 def main():
     input = "Data/in.txt"
-    k, m, rows = InputHandling(input)
+    k, m, rows, nextRequest = InputHandling(input)
     FIFO(k, m, rows)
     LRU(k, m, rows)
-    OPTFF(k, m, rows)
+    OPTFF(k, m, rows, nextRequest)
 
     Q1 = False
 

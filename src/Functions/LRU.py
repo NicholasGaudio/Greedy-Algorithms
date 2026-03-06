@@ -24,4 +24,4 @@ def LRU(k, m, rows):
                         break
                 LRU[request] = i
 
-    print(f"LRU Misses: {misses}")
+    print(f"LRU   : {misses}")

@@ -21,7 +21,7 @@ def FIFO(k, m, rows):
                 FIFO.popleft()
                 FIFO.append(request)
     
-    print(f"FIFO Misses: {misses}")
+    print(f"FIFO  : {misses}")
     #print(f"FIFO current size: {len(FIFO)}")
     #print(f"FIFO capacity: {k}")
 

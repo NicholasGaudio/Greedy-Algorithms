@@ -30,3 +30,4 @@ def OPTFF(k, m, rows, nextRequest):
         #print(nextRequest)
         #print(cache)
     print(f"OPTFF : {misses}")
+    return misses

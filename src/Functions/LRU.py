@@ -25,3 +25,4 @@ def LRU(k, m, rows):
                 LRU[request] = i
 
     print(f"LRU   : {misses}")
+    return misses

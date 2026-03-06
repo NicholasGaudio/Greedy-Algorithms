@@ -33,5 +33,4 @@ def InputHandling(filepath):
         nextRequest[val].append(step)
         step+=1
 
-    print(nextRequest)
     return k, m, rows, nextRequest

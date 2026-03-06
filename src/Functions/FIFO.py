@@ -24,5 +24,6 @@ def FIFO(k, m, rows):
     print(f"FIFO  : {misses}")
     #print(f"FIFO current size: {len(FIFO)}")
     #print(f"FIFO capacity: {k}")
+    return misses
 
 

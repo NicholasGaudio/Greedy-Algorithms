@@ -19,14 +19,14 @@ python3 .\src\main.py
 ## Written Assignment Solutions
 Question 1:
 
-!(src\Images\Question_1_Response.png)
+![](src\Images\Question_1_Response.png)
 
 Question 2:
 
-!(src\Images\Question_2.png)
+![](src\Images\Question_2.png)
 
 Question 3:
 
-!(src\Images\Question_3_1.png)
-!(src\Images\Question_3_2.png)
+![](src\Images\Question_3_1.png)
+![](src\Images\Question_3_2.png)
 

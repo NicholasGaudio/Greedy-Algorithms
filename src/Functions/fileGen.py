@@ -10,7 +10,7 @@ def fileGen(filename, k, m, maxID):
 
 def outputGen(Lm, Fm, Om):
     filepath = Path(__file__).parent.parent.parent
-    with open(filepath / "Data/Output/output.txt", "w") as f:
+    with open(filepath / "Data/Output/example.out", "w") as f:
         f.write(f"FIFO  : {Fm}\n")
         f.write(f"LRU   : {Lm}\n")
         f.write(f"OPTFF : {Om}\n")

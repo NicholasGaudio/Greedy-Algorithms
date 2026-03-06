@@ -5,7 +5,7 @@ from Functions.Input import InputHandling
 from Functions.fileGen import fileGen, outputGen
 
 def main():
-    input = "Data/in.txt"
+    input = "Data/example.in"
     k, m, rows, nextRequest = InputHandling(input)
     Fm = FIFO(k, m, rows)
     Lm = LRU(k, m, rows)

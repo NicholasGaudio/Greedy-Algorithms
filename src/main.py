@@ -1,5 +1,6 @@
 from Functions.FIFO import FIFO
 from Functions.LRU import LRU
+from Functions.OPTFF import OPTFF
 from Functions.Input import InputHandling
 from Functions.fileGen import fileGen
 
@@ -8,6 +9,7 @@ def main():
     k, m, rows = InputHandling(input)
     FIFO(k, m, rows)
     LRU(k, m, rows)
+    OPTFF(k, m, rows)
 
     Q1 = False
 
